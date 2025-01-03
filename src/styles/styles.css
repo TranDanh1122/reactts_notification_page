@@ -2,10 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    .header {
+        @apply font-extrabold text-[1.5rem] text-very_dark_blue
+    }
+
+    .body-bold {
+        @apply font-extrabold text-very_dark_blue
+    }
+
+    .body {
+        @apply font-medium text-very_dark_blue
+    }
+}
+
+@font-face {
+    font-family: "Jarkata";
+    src: url("./fonts/PlusJakartaSans-VariableFont_wght.ttf");
+}
+
 body,
 html {
     width: 100%;
     height: auto;
     min-height: 100vh;
     background-color: hsl(205, 33%, 90%);
+    font-family: "Jarkata";
+}
+
+#root {
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
