@@ -675,16 +675,16 @@ video {
   gap: 2rem;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .rounded-md {
   border-radius: 0.375rem;
 }
 
 .rounded-xl {
   border-radius: 0.75rem;
-}
-
-.rounded-lg {
-  border-radius: 0.5rem;
 }
 
 .border-\[1px\] {
@@ -705,9 +705,9 @@ video {
   background-color: hsl(219 12% 42% / var(--tw-bg-opacity, 1));
 }
 
-.bg-light_grayish_blue_2 {
+.bg-very_light_grayish_blue {
   --tw-bg-opacity: 1;
-  background-color: hsl(205 33% 90% / var(--tw-bg-opacity, 1));
+  background-color: hsl(210 60% 98% / var(--tw-bg-opacity, 1));
 }
 
 .bg-white {
@@ -715,27 +715,17 @@ video {
   background-color: hsl(0 0% 100% / var(--tw-bg-opacity, 1));
 }
 
-.bg-light_grayish_blue_1 {
-  --tw-bg-opacity: 1;
-  background-color: hsl(211 68% 94% / var(--tw-bg-opacity, 1));
-}
-
-.bg-very_light_grayish_blue {
-  --tw-bg-opacity: 1;
-  background-color: hsl(210 60% 98% / var(--tw-bg-opacity, 1));
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .p-5 {
   padding: 1.25rem;
+}
+
+.p-8 {
+  padding: 2rem;
 }
 
 .px-2 {
@@ -783,7 +773,7 @@ html {
   height: auto;
   min-height: 100vh;
   background-color: hsl(205, 33%, 90%);
-  font-family: "Jarkata";
+  font-family: "Jarkata", sans-serif;
 }
 
 #root {

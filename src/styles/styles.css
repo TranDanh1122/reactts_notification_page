@@ -27,7 +27,7 @@ html {
     height: auto;
     min-height: 100vh;
     background-color: hsl(205, 33%, 90%);
-    font-family: "Jarkata";
+    font-family: "Jarkata", sans-serif;
 }
 
 #root {
